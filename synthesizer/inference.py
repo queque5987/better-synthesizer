@@ -1,19 +1,15 @@
 
 import os
-from tabnanny import check
+# from tabnanny import check
 import torch
 from synthesizer import audio
 from synthesizer.hparams import hparams
 from synthesizer.utils.symbols import symbols
 from synthesizer.utils.text import text_to_sequence
-# from vocoder.display import simple_table
 from pathlib import Path
 from typing import Union, List
 import numpy as np
 import librosa
-import collections
-import time
-
 from synthesizer import taco_api
 
 class Synthesizer:
