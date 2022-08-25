@@ -63,6 +63,8 @@ https://dashboard.heroku.com/
     pymysql
 **first line enableds install torch for cpu when deploying server to heroku*
 -----
+Better-API (better-synthesizer)
+=============
 ### Better-API는 사용자의 목소리로 문장을 읽어주는 소리 파일을 만들어 냅니다.   
     1.인코더는 사용자의 목소리와 임베딩을 생성하여 신세사이저로 전달합니다.   
     2.신세사이저는 사용자 목소리 임베딩과 문장을 통해 멜스펙트로그램을 생성하여 보코더로 전달합니다.   
