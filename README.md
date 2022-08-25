@@ -76,10 +76,10 @@ Better-API (better-synthesizer)
 *보코더는 waveRNN 모델을 사용합니다.*   
     
 ## 서버 API 링크   
-https://better-vocoder.herokuapp.com/
+https://better-synthesizer.herokuapp.com/
 
 ## 엔드포인트 링크   
-https://better-vocoder.herokuapp.com/inference/
+https://better-synthesizer.herokuapp.com/inference/
 
 ### Request JSON
     embed @type {list}
