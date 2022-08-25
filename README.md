@@ -82,7 +82,6 @@ https://better-vocoder.herokuapp.com/inference/
     embed @type {list}
     text @type {int}
 **유저 목소리 임베딩을 전달받아 멜 스펙트로그램을 생성합니다.*   
-**{ndarray} must be converted into {list}*   
 **{tensor}타입의 임베딩을 {list}타입의 객체로 변환하여 사용하여야 합니다.*   
 
 ### Response JSON
