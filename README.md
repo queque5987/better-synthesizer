@@ -62,6 +62,7 @@ https://dashboard.heroku.com/
     Unidecode
     pymysql   
 **first line enableds install torch for cpu when deploying server to heroku*
+
 -----
 Better-API (better-synthesizer)
 =============
