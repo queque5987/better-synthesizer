@@ -26,7 +26,11 @@ class UserInput(BaseModel):
 def index():
     return FileResponse("index.html")
 
-@app.post('/inference/')
+@app.get('/check')
+def check():
+    return "service available"
+
+@app.post('/inference')
 async def inference(userinput: UserInput):
     userinput = userinput.dict()
     embed = np.array(userinput["embed"])
